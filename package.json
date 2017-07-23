@@ -1,0 +1,35 @@
+{
+  "name": "messagingSystem",
+  "version": "1.0.0",
+  "description": "Projectica messaging system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VetalZloy",
+  "license": "ISC",
+  "dependencies": {
+    "async-redis": "^1.0.0",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-oauth-server": "^2.0.0-b1",
+    "jsonwebtoken": "^7.4.1",
+    "mongodb": "^2.2.29",
+    "socket.io": "^2.0.1",
+    "socket.io-cookie": "0.0.1",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-async-await": "0.0.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

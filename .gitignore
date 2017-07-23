@@ -1,0 +1,4 @@
+.eslintrc.json
+development.json
+node_modules/
+log/

@@ -1,0 +1,7 @@
+{
+	"port": 2323,
+	"secret": "TopSecret",
+	"mongo": {
+		"uri": "URI TO DATABASE"
+	}
+}
