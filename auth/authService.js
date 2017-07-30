@@ -1,5 +1,5 @@
-let cfg = require('./config')
-let logger = require('./logger')
+let cfg = require('../config/config')
+let logger = require('../logger')
 
 let jwt = require('jsonwebtoken')
 let bcrypt = require('bcrypt')

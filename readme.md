@@ -13,3 +13,6 @@ npm install
 node app.js
 ```
 4. That's all
+
+## Important
+Messaging uses Redis to identify client by his `SESSION` cookie. Then Messaging will try to find some corresponding records in Redis. Format of records in Redis should be `useless-data|BEGIN|necessary-data`, thus Messaging will use part after `|BEGIN|`. 

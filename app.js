@@ -1,8 +1,8 @@
-let cfg = require('./config')
+let cfg = require('./config/config')
 let logger = require('./logger')
-let authService = require('./authService')
-let dialogService = require('./dialogService')
-let chatService = require('./chatService')
+let authService = require('./auth/authService')
+let dialogService = require('./dialog/dialogService')
+let chatService = require('./chat/chatService')
 
 let app = require('express')()
 let bodyParser = require('body-parser')

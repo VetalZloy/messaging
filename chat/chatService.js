@@ -1,8 +1,7 @@
-let cfg = require('./config')
-
-let logger = require('./logger')
+let cfg = require('../config/config')
+let logger = require('../logger')
 let ChatDAO = require('./chatDAO')
-let redisSession = require('./redis-session')
+let redisSession = require('../redis/redis-session')
 
 let chatRouter = require('express').Router()
 let jwt = require('jsonwebtoken')

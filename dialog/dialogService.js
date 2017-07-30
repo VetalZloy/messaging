@@ -1,5 +1,5 @@
-let logger = require('./logger')
-let redisSession = require('./redis-session')
+let logger = require('../logger')
+let redisSession = require('../redis/redis-session')
 let DialogDAO = require('./dialogDAO')
 
 module.exports = function (app, io) {
