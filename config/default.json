@@ -3,5 +3,8 @@
 	"secret": "TopSecret",
 	"mongo": {
 		"uri": "URI TO DATABASE"
+	},
+	"redis": {
+		"uri": "URI TO REDIS"
 	}
 }

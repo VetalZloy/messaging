@@ -1,4 +1,6 @@
-let redisClient = require('redis').createClient()
+let cfg = require('../config/config')
+
+let redisClient = require('redis').createClient(cfg.redis.uri)
 let asyncRedisClient = require('async-redis').decorate(redisClient)
 
 /**
